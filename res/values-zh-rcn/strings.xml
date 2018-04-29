@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">导航条</string>
+    <string name="nav_bar_summary">自定义导航条外观</string>
+
+    <string name="nav_bar_layout">布局</string>
+    <string name="nav_bar_layout_normal">正常（默认）</string>
+    <string name="nav_bar_layout_left">靠左</string>
+    <string name="nav_bar_layout_right">靠右</string>
+    <string name="nav_bar_layout_center">置中</string>
+    <string name="nav_bar_layout_compact">紧凑</string>
+    <string name="nav_bar_layout_tablet">平板模式</string>
+
+    <string name="nav_bar_inverted">反转</string>
+    <string name="nav_bar_inverted_summary">交换“返回键”和“任务键”的位置</string>
+
+    <string name="nav_bar_normalize_button_size">统一按键大小</string>
+    <string name="nav_bar_normalize_button_size_summary">将所有按键设为同样尺寸</string>
+
+    <string name="immersive">沉浸模式</string>
+    <string name="change_immersive_settings">更改沉浸模式设定</string>
+    <string name="hide_status">隐藏状态栏</string>
+    <string name="hide_nav">隐藏导航条</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">主页键</string>
+    <string name="accessibility_back">返回键</string>
+    <string name="accessibility_recent">任务键</string>
+    <string name="keycode">自定义</string>
+    <string name="clipboard">剪贴板</string>
+    <string name="space">空格</string>
+    <string name="spacer">空格</string>
+    <string name="menu_ime">输入法</string>
+    <string name="notifications">通知</string>
+    <string name="media_volume">音量面板</string>
+    <string name="tasker_event">Tasker事件</string>
+    <string name="toggle_profile">切换档案</string>
+    <string name="launch_app">运行APP</string>
+    <string name="single_tap">单击</string>
+    <string name="double_tap">双击</string>
+    <string name="long_press">长按</string>
+    <string name="double_tap_delay">双击延迟</string>
+    <string name="double_tap_incompatible">默认按键不能设置双击</string>
+    <string name="dt_limitation">免费版无法使用双击\n请支持开发者，购买专业版来解锁双击。</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">最左侧额外按键</string>
+    <string name="xt_center_button">最中间额外按键</string>
+    <string name="xt_right_button">最右侧额外按键</string>
+    <string name="xt_left_button_dt">最左侧额外按键 (双击)</string>
+    <string name="xt_center_button_dt">最中间额外按键 (双击)</string>
+    <string name="xt_right_button_dt">最右侧额外按键 (双击)</string>
+    <string name="xt_n_button">额外按鍵 %s</string>
+    <string name="button_actions">动作</string>
+    <string name="button_action">动作</string>
+    <string name="button_override">取代此按键</string>
+    <string name="button_type">类型</string>
+    <string name="button_keycode">自定义</string>
+    <string name="button_icon">图标</string>
+    <string name="unchanged">无更改</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">选择APP</string>
+    <string name="action_search">搜索</string>
+    <string name="no_result">没有结果</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">档案</string>
+    <string name="profiles_summary">建立不同的档案来切换使用</string>
+    <string name="no_profiles">没有档案</string>
+    <string name="automation">自动化</string>
+    <string name="profile">档案</string>
+    <string name="profile_enabled">启用档案</string>
+    <string name="profile_name">档案名称</string>
+    <string name="profile_name_summary">重命名档案</string>
+    <string name="delete">删除</string>
+    <string name="profiles_limitation">免费版最多可以建立2个档案。\n请支持开发者，购买专业版来建立更多档案。</string>
+    <string name="profile_show_in_app_shortcuts">在APP菜单中显示此档案</string>
+    <string name="profile_app_shortcut_toggle">切换 \"%s\"</string>
+    <string name="disable_all_profiles">禁用所有档案</string>
+    <string name="all_profiles_disabled">已禁用所有档案用</string>
+    <string name="app_shortcuts_max_limit">APP菜单的数目已达到上限</string>
+    <!-- / Profiles -->
+
+    <!-- Custom layout -->
+    <string name="preview">预览</string>
+    <string name="start">开始</string>
+    <string name="center">中心</string>
+    <string name="end">结束</string>
+    <string name="select_button">选择按键</string>
+    <string name="add_button">加入按键</string>
+    <string name="save">保存</string>
+    <string name="reset">重置</string>
+
+    <string name="no_home_title">没有设定主页键</string>
+    <string name="no_home_message">需要主页键才能在控制设备，请在保存前加入主页键。</string>
+
+    <string name="adjust_button_width">调整按键宽度</string>
+
+    <string name="custom_layout_limitation">免费版无法使用自定义布局。\n请支持开发者，购买专业版来解锁自定义布局。</string>
+    <string name="custom_layout_samsung_warning">自定义布局可能无法兼容Samsung的设备，使用前请自行评估风险。</string>
+    <string name="rename">重命名</string>
+    <string name="smartbar">Smart Bar</string>
+    <!-- / Custom layout -->
+    
+    <!-- Themes -->
+    <string name="theme">主题</string>
+    <string name="theme_default">默认</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
+    <string name="theme_filled">实心</string>
+    <string name="theme_invisible">不可见</string>
+    <string name="theme_holo">Holo</string>
+    <string name="theme_material">Material</string>
+    <string name="invalid_theme">无效主题</string>
+    <string name="theme_limitation">免费版无法使用主题。\n请支持开发者，购买专业版来解锁主題。</string>
+    <string name="wip_feature">此功能仍在开发测试阶段</string>
+    <string name="themes_warning">设定主题后将无法使用长按功能。这是Android系统自身的限制并且无法解除。</string>
+    <string name="theme_incompatibility">不兼容</string>
+    <string name="theme_disable_screen_pinning">主题无法与屏幕固定同时工作，要关闭屏幕固定吗？</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">取消</string>
+    <string name="twofortyfouram_locale_menu_help">帮助</string>
+    <string name="twofortyfouram_locale_menu_save">完成</string>
+
+    <string name="tasker_configuration">设置</string>
+    <string name="tasker_select_action">动作</string>
+    <string name="tasker_select_profile">选择档案</string>
+    <string name="tasker_select_button">选择按键</string>
+    <string name="none">没有</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">自动切换档案</string>
+    <string name="tasker_profile_empty">请选择档案</string>
+    <string name="tasker_no_profiles">请建立档案</string>
+
+    <string name="tasker_enable_profile">启用档案</string>
+    <string name="tasker_disable_profile">禁用档案</string>
+    <string name="tasker_in_profile">在档案 %s</string>
+    <string name="tasker_pro_limitation">免费版无法使用Tasker设置。\n请支持开发者，购买专业版来解锁Tasker设置。</string>
+    <string name="tasker_events_wip">此功能仍在开发测试阶段</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">设定</string>
+    <string name="information">关于</string>
+    <string name="share">分享</string>
+    <string name="other_apps">其他APP</string>
+    <string name="version">版本</string>
+    <string name="grant_perm">授予权限</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+    此应用需要<i>WRITE_SECURE_SETTINGS</i>的权限才能更改导航栏样式。你可以连接电脑或使用Root来获得权限。
+    <br><br><b>如果你有电脑</b>
+    <br><b>1 </b>在电脑安装ADB
+    <br><b>2 </b>将设备连接到电脑并打开USB调试
+    <br><b>3 </b>开启命令行
+    <br><b>4 </b>输入 \'adb shell\' 进入 adb shell
+    <br><b>5 </b>输入以下命令
+    <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+    <br><br><b>如果你已获得Root权限</b>
+    <br>请按下一步并允许本程序获得权限，也可使用以下方法授予权限。
+    <br><b>1 </b>打开终端模拟器
+    <br><b>2 </b>输入 \'su\' 進入 超级用户模式
+    <br><b>3 </b>输入以下命令
+    <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+    <br><br><b>可以按下面的按键复制此命令</b>
+    ]]></string>
+    <string name="retry_title">重试</string>
+    <string name="retry_desc">重新开始测试</string>
+    <string name="copied">命令已复制</string>
+    <string name="help_needed">很遗憾，该设备未能通过兼容性测试。</string>
+
+    <string name="buy">购买</string>
+    <string name="buy_pro">购买专业版</string>
+    <string name="buy_pro_summary">支持开发者，并移除广告</string>
+    <string name="thanks">感谢你对开发者的支持。</string>
+
+    <string name="welcome">欢迎使用 %s。该向导将引导你使用此程序。</string>
+    <string name="copy">复制命令</string>
+    <string name="get_started">开始！</string>
+    <string name="safety_first">安全第一</string>
+    <string name="safety_desc"><![CDATA[
+        为确保程序正确运行，需要进行兼容性测试
+        <br><br>按<b>开始</b>进行测试
+    ]]></string>
+    <string name="cancel">取消</string>
+    <string name="test_desc"><![CDATA[
+        按<b>导航条上的下一步按键</b>来继续
+        <br><br>如果你的导航条无法显示下一步按键，这表示你的设备不兼容此程序。
+    ]]></string>
+    <string name="compatibility_test">兼容性测试</string>
+    <string name="finish">完成</string>
+    <string name="all_done" />
+    <string name="all_done_desc">已经完成设定，现在你可以使用此程序了。 </string>
+    <string name="exit">退出</string>
+    <string name="contact">联系开发者</string>
+    <string name="no_email_app">未找到邮件程序</string>
+    <string name="no_root">请在连接电脑ADB授予权限。</string>
+    <string name="not_compatible">此程序与你的Android版本不兼容。为避免出现错误，所有功能将被禁用。</string>
+    <string name="might_not_be_compatible">此程序在你的Android版本的可能使用效果不理想甚至无法工作。</string>
+    <string name="experimental">实验性功能</string>
+    <string name="experimental_warning">这些设置允许你替换默认的主页键、返回键和任务键。（在部分设备或系统版本中可能无效） </string>
+    <string name="dark_theme">暗色主题</string>
+    <string name="reset_navbar">重置</string>
+    <string name="reset_navbar_summary">将导航条重置为系统默认</string>
+    <string name="author">开发者</string>
+    <string name="other_apps_summary">查看我的其他APP</string>
+    <string name="share_text" formatted="false">查看 \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">分享至</string>
+    <string name="support_development">支持开发者</string>
+    <string name="report_bugs">反馈</string>
+    <string name="repoer_bugs_summary">报告程序错误或提出建议</string>
+    <string name="translate">翻译</string>
+    <string name="translate_summary">完善程序的翻译</string>
+    <string name="send_email">发送邮件</string>
+    <string name="licenses">开源许可</string>
+    <!-- / App info -->
+
+</resources>
